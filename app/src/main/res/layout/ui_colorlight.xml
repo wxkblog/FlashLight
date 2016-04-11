@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fff"
+    android:id="@+id/colorlight_ui"
+    android:onClick="onClick_ShowColorPicker"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.wang.administrator.flashlight.HideTextView
+        android:id="@+id/textview_hide_colorlight"
+        android:gravity="center"
+        android:text="点击屏幕显示调色板"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

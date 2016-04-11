@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/morse_ui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="120dp"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="请输入摩尔斯电码（只能输入字母，数字和空格）"
+        android:textColor="#fff"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/morse_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SOS"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="发送"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick_SendMorseCode" />
+</LinearLayout>

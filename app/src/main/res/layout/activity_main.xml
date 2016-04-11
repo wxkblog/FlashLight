@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <include layout="@layout/ui_flashlight" />
+
+    <include layout="@layout/ui_main" />
+
+    <include layout="@layout/ui_warning" />
+
+    <include layout="@layout/ui_morse" />
+
+    <include layout="@layout/ui_bulb" />
+
+    <include layout="@layout/ui_colorlight"/>
+
+    <ImageView
+        android:id="@+id/imageview_controller"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick_Controller"
+        android:src="@drawable/controller" />
+
+</FrameLayout>
