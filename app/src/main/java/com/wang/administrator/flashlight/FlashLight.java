@@ -25,7 +25,6 @@ public class FlashLight extends BaseActivity {
         getWindowManager().getDefaultDisplay().getSize(point);
 
         LayoutParams layoutParams = (LayoutParams) mImageViewFlashlight.getLayoutParams();
-//        layoutParams.height = point.y / 4;
         layoutParams.width = point.x / 2;
         layoutParams.height = layoutParams.width;
         mImageViewFlashlight.setLayoutParams(layoutParams);

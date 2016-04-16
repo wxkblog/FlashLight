@@ -5,6 +5,8 @@ import android.os.Handler;
 import android.os.Message;
 
 /**
+ * 闪烁灯
+ * 开一个线程，改变
  * Created by Administrator on 2016/3/3.
  */
 public class WarningLight extends FlashLight{
@@ -28,9 +30,8 @@ public class WarningLight extends FlashLight{
                 try{
                     Thread.sleep(300);
                     mWarningHandler.sendEmptyMessage(0);
-
                 }catch (Exception e){
-
+                    e.printStackTrace();
                 }
             }
         }

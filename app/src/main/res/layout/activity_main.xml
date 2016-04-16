@@ -14,8 +14,6 @@
 
     <include layout="@layout/ui_bulb" />
 
-    <include layout="@layout/ui_colorlight"/>
-
     <ImageView
         android:id="@+id/imageview_controller"
         android:layout_width="48dp"
